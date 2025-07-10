@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Safe With Harsh</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Safe With Harsh</h1>
+  
+   
+    <form id="contact-form">
+      <input type="text" id="newContact" placeholder="Enter phone number with country code" />
+      <button type="submit">Save Contact</button>
+    </form>
+
+    <ul id="contactList"></ul>
+
+    <button id="panicButton">PANIC</button>
+    <div id="countdownDisplay"></div>
+
+    <form id="cancelForm" class="hidden">
+      <input type="password" id="cancelPassword" placeholder="Enter password to cancel alert" />
+      <button type="submit">Cancel Alert</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
